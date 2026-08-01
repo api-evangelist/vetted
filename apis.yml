@@ -1,8 +1,14 @@
 aid: vetted
 name: Vetted
-description: 'Vetted is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Vetted (formerly Lustre) is a San Francisco based AI-powered shopping research assistant that helps
+  consumers find the best products and lowest prices. The service analyzes reviews and recommendations
+  from trusted sources such as Reddit, YouTube, user reviews, and expert articles to surface the most
+  recommended brands and products for a shopper's needs, then compares retailers to identify the best
+  available price. Vetted is delivered as consumer iOS and Android mobile apps and a web experience,
+  and is backed by Index Ventures. It exposes no public developer API, documentation, or developer
+  portal at this time (api.vetted.ai serves the mobile apps as a private backend). This profile was
+  added to the API Evangelist network as a portfolio-lead stub.
 url: https://raw.githubusercontent.com/api-evangelist/vetted/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://vetted.ai/opengraph-image.png
 tags:
 - Company
 - Ai Ml
+- Artificial Intelligence
+- Shopping
+- Ecommerce
+- Product Discovery
+- Consumer
+- Recommendations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://vetted.ai/
+- type: SignUp
+  url: https://join.vetted.ai/
+- type: TermsOfService
+  url: https://join.vetted.ai/terms
+- type: PrivacyPolicy
+  url: https://join.vetted.ai/privacy
+- type: DomainSecurity
+  url: security/vetted-domain-security.yml
+- type: Packages
+  url: packages/vetted-packages.yml
+- type: SDKs
+  url: packages/vetted-packages.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1

@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/@lustre%2Fsdk
+description: >-
+  First-party Vetted client library discovered on the public npm registry.
+  Vetted was formerly named Lustre, and the SDK is published under the @lustre
+  npm scope by Vetted's engineering org (github.com/parli). The package
+  self-describes as "The Vetted SDK" and wraps the private Vetted API
+  (api.vetted.ai, which returns 403/404 to unauthenticated clients and is not
+  publicly documented). The source repository is private (github.com/parli
+  /typescript-sdk returns 404 to the GitHub API), but the npm package itself is
+  public. Registry metadata captured at fetch time.
+packages:
+  - language: typescript
+    registry: npm
+    name: "@lustre/sdk"
+    url: https://www.npmjs.com/package/@lustre/sdk
+    source: https://github.com/parli/typescript-sdk
+    install: npm install @lustre/sdk
+    official: true
+    version: 4.6.4
+    first_published: '2020-03-22'
+    last_updated: '2026-07-09'
+    versions_published: 565
+    license: UNLICENSED
+    note: >-
+      Provides fetch promises and exposes the Vetted API schema for type-safe
+      use. Depends only on eventemitter3. No CLI binary. The underlying Vetted
+      API is a private backend (api.vetted.ai) with no public documentation.
